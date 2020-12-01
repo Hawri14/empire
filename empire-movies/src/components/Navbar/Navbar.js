@@ -1,13 +1,29 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { FaTimes, FaBars} from 'react-icons/fa';
 import { IconContext} from 'react-icons/lib'
-import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks } from './Navbar.elements';
+import { Button } from '../../globalStyle';
+import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks, NavItemBtn, NavBtnLink } from './Navbar.elements';
 
 
 const Navbar = () => {
-    const[click, setClick] = useState(false)
+    const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true);
 
-    const handleClick = () => setClick(!click)
+    const handleClick = () => setClick(!click);
+
+    const showButton = () => {
+        if(window.innerWidth <= 960) {
+            setButton(false)
+        } else {
+            setButton(true)
+        }
+    }
+
+    useEffect(() => {
+        showButton()
+    }, [])
+
+    window.addEventListener('resize', showButton);
 
           /* makes the logo change colour and the mobile popdown menu*/
     return (
@@ -22,20 +38,33 @@ const Navbar = () => {
                 <MobileIcon onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}
                 </MobileIcon>
-                <NavMenu onClick={handleClick}>
+
+                <NavMenu onClick={handleClick} click={click}>
                     <NavItem>
                         <NavLinks to='/'>Home</NavLinks>
                         </NavItem>
-                        </NavMenu>
-                        <NavMenu onClick={handleClick}>
+                        
                     <NavItem>
                         <NavLinks to='/Movies'>Movies</NavLinks>
                         </NavItem>
-                        </NavMenu>
-                        <NavMenu onClick={handleClick}>
+
                     <NavItem>
                         <NavLinks to='/AboutUs'>AboutUs</NavLinks>
                         </NavItem>
+
+                        <NavItemBtn>
+                            {Button ? (
+                                <NavBtnLink to="/Login">
+                                    <Button primary>LOGIN</Button>
+                                    </NavBtnLink>
+                                    ) : (
+                                    <NavBtnLink to="/Login">
+                                        <Button fontBig primary>
+                                            Login
+                                        </Button>
+                                    </NavBtnLink>
+                            )}
+                        </NavItemBtn>
                         </NavMenu>
             </NavbarContainer>
         </Nav>
