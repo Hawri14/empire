@@ -33,7 +33,7 @@ const Navbar = () => {
             <NavbarContainer>
                 <NavLogo to="/">
                     <NavIcon />
-                    EMPIRE
+                    EMPIRE MOVIES
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}
@@ -49,7 +49,7 @@ const Navbar = () => {
                         </NavItem>
 
                     <NavItem>
-                        <NavLinks to='/AboutUs'>AboutUs</NavLinks>
+                        <NavLinks to='/AboutUs'>About Us</NavLinks>
                         </NavItem>
 
                         <NavItemBtn>

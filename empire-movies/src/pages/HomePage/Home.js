@@ -1,13 +1,14 @@
 import React from 'react';
-import { homeObjOne } from './Data';
+import { homeObjOne, homeObjTwo } from './Data';
 import { MoreInfo } from '../../components';
 
 const Home = () => {
     return (
-        <>
-        <MoreInfo {...homeObjOne} />           
+        <>  
+        <MoreInfo {...homeObjOne} />  
+        <MoreInfo {...homeObjTwo} />   
         </>
-    );
+    );    //above we just create the page sections that we have in our Data.js file so it shows on the page
 };
 
 export default Home;

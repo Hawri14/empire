@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyle';
-import { Infosec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle} from './MoreInfo.elements';
+import { Infosec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img} from './MoreInfo.elements';
 
 
-const MoreInfo = ({ Primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, lightText,topLine }) => {
+const MoreInfo = ({ Primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, lightText, topLine, img , alt, start }) => { //here we are just importing the functions that we use
     return (
         <>
             <Infosec lightBg= {lightBg}>
@@ -19,6 +19,11 @@ const MoreInfo = ({ Primary, lightBg, imgStart, lightTopLine, lightTextDesc, but
                                     <Button big fontBif Primary={Primary}>{buttonLabel}</Button>
                                 </Link>
                             </TextWrapper>
+                        </InfoColumn>
+                        <InfoColumn>
+                            <ImgWrapper start={start}>
+                                <Img src={img} alt={alt} />
+                            </ImgWrapper>
                         </InfoColumn>
                     </InfoRow>    
                 </Container>

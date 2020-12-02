@@ -1,9 +1,10 @@
+// we just use this page to define things on the page, we also use this page to do some css for some of the parts we need
 import styled from 'styled-components'
 
 export const Infosec = styled.div`
 color: #fff;
 padding: 160px 0;
-background: ${({ lightBg}) => (lightBg ? '#fff' : '#101522')};
+background: ${({ lightBg}) => (lightBg ? '#fff' : '#101522')};  //this just means if lightBg is true then make the page white  else make it #101522 
 `;
 
 export const InfoRow = styled.div`
@@ -61,4 +62,19 @@ margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
 color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+`;
+
+export const ImgWrapper = styled.div`
+max-width: 555px;
+display: flex;
+justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+`;
+
+export const Img = styled.img`
+padding-right: 0;
+border: 0;
+max-width: 100%;
+vertical-align: middle;
+display: inline-block;
+max-height: 500px;
 `;
