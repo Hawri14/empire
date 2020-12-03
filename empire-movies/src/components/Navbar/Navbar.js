@@ -65,6 +65,19 @@ const Navbar = () => {
                                     </NavBtnLink>
                             )}
                         </NavItemBtn>
+                        <NavItemBtn>
+                            {Button ? (
+                                <NavBtnLink to="/Sign In">
+                                    <Button primary>Sign In</Button>
+                                    </NavBtnLink>
+                                    ) : (
+                                    <NavBtnLink to="/Sign In">
+                                        <Button fontBig primary>
+                                            Sign In
+                                        </Button>
+                                    </NavBtnLink>
+                            )}
+                        </NavItemBtn>
                         </NavMenu>
             </NavbarContainer>
         </Nav>

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Infosec = styled.div`
 color: #fff;
 padding: 160px 0;
-background: ${({ lightBg}) => (lightBg ? '#fff' : '#101522')};  //this just means if lightBg is true then make the page white  else make it #101522 
+background: ${({ lightBg}) => (lightBg ? '#9E8A60' : 'grey')};  //this just means if lightBg is true then make the page white  else make it #101522 
 `;
 
 export const InfoRow = styled.div`

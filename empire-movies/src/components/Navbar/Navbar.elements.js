@@ -25,7 +25,7 @@ ${Container}
 `;
 /*this is the css for the navbar, for the logo part and the text*/
 export const NavLogo = styled(Link)`
-color: red;
+color: #9E8A60;
 justify-self: flex-start;
 cursor: pointer;
 text-decoration: none;
