@@ -20,7 +20,7 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinksItems>
                         <FooterLinkTitle>About us</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
+                        <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
                         <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
                         <FooterLink to='/'>How itasdfasdf works</FooterLink>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Contact US</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
+                        <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
                         <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
                         <FooterLink to='/'>How itasdfasdf works</FooterLink>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <FooterLinksWrapper>
                     <FooterLinksItems>
                         <FooterLinkTitle>Movies</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
+                        <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
                         <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
                         <FooterLink to='/'>How itasdfasdf works</FooterLink>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Social Media</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
+                        <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
                         <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
                         <FooterLink to='/'>How itasdfasdf works</FooterLink>

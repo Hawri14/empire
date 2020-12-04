@@ -2,7 +2,7 @@ import React from 'react';
 import { homeObjOne, homeObjTwo } from './Data';
 import { MoreInfo } from '../../components';
 
-const Login = () => {
+const Signup = () => {
     return (
         <>  
         <MoreInfo {...homeObjOne} />  
@@ -11,4 +11,4 @@ const Login = () => {
     );    //above we just create the page sections that we have in our Data.js file so it shows on the page
 };
 
-export default Login;
+export default Signup;
