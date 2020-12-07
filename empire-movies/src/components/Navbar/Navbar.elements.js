@@ -5,7 +5,7 @@ import { Container } from '../../globalStyle';
 
 
 export const Nav = styled.nav`
-background: #101522;
+background: #464646;
 height: 80px;
 display: flex;
 justify-content: center;
@@ -90,7 +90,7 @@ border-bottom: 2px solid transparent;
 `;
 
 export const NavLinks = styled(Link)`
-color: #fff;
+color: #9E8A60;
 display: flex;
 align-items: center;
 text-decoration: none;
