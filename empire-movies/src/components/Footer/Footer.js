@@ -22,17 +22,11 @@ const Footer = () => {
                         <FooterLinkTitle>About us</FooterLinkTitle>
                         <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
-                        <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
-                        <FooterLink to='/'>How itasdfasdf works</FooterLink>
-                        <FooterLink to='/'>Howasdfasfdsadf it works</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Contact US</FooterLinkTitle>
                         <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
-                        <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
-                        <FooterLink to='/'>How itasdfasdf works</FooterLink>
-                        <FooterLink to='/'>Howasdfasfdsadf it works</FooterLink>
                     </FooterLinksItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -40,17 +34,11 @@ const Footer = () => {
                         <FooterLinkTitle>Movies</FooterLinkTitle>
                         <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
-                        <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
-                        <FooterLink to='/'>How itasdfasdf works</FooterLink>
-                        <FooterLink to='/'>Howasdfasfdsadf it works</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Social Media</FooterLinkTitle>
                         <FooterLink to='/Signup'>How it works</FooterLink>
                         <FooterLink to='/'>Hlkajshdf</FooterLink>
-                        <FooterLink to='/'>How it wosadfasdfrks</FooterLink>
-                        <FooterLink to='/'>How itasdfasdf works</FooterLink>
-                        <FooterLink to='/'>Howasdfasfdsadf it works</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
