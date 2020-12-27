@@ -9,7 +9,7 @@ export const homeObjTwo = {
     headline: 'ABOUT US', 
     lightText: false,
     topLine: 'Empire Movies',
-    img: require('../../images/svg1.svg').default, 
+    img: require('../../images/svg2.svg').default, 
     alt: 'Image',
     start: 'true',
 };
