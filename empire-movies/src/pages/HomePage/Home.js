@@ -17,9 +17,7 @@ const Home = ({ Primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonL
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to='/LOGIN'>
-                                    <Button big fontBif Primary={Primary}>{buttonLabel}</Button>
-                                </Link>
+                                
                             </TextWrapper>
                         </InfoColumn>
                         <InfoColumn>
@@ -38,5 +36,3 @@ const Home = ({ Primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonL
 
 
 export default Home;
-
-
