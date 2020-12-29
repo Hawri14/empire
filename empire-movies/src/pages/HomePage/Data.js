@@ -4,6 +4,7 @@ import styled from 'styled-components'
 export const Infosec = styled.div`
 color: #fff;
 padding: 160px 0;
+padding-bottom: 100px;
 background: ${({ lightBg}) => (lightBg ? '#9E8A60' : 'grey')};  //this just means if lightBg is true then make the page white  else make it #101522 
 `;
 
@@ -34,7 +35,7 @@ flex-basis: 50%;
 export const TextWrapper = styled.div`
 max-width: 540px;
 padding-top: 0;
-padding-bottom: 60px;
+padding-bottom: 0px;
 
 @media screen and (max-width: 768px) {
     padding-bottom: 65px;

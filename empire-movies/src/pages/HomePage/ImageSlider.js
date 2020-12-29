@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { SliderData } from './SliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import { render } from '@testing-library/react';
+import '../HomePage/css/slider.css'
+
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -26,8 +29,7 @@ const ImageSlider = ({ slides }) => {
         return (
           <div
             className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
+            key={index}>
             {index === current && (
               <img src={slide.image} alt='travel image' className='image' />
             )}
