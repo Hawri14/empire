@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Infosec = styled.div`
 color: #fff;
-padding: 160px 0;
+padding: 1px 0;
 padding-bottom: 100px;
 background: ${({ lightBg}) => (lightBg ? '#9E8A60' : 'grey')};  //this just means if lightBg is true then make the page white  else make it #101522 
 `;
@@ -17,7 +17,7 @@ flex-direction: ${({imgStart}) => (imgStart ? 'row-reverse' : 'row')};
 `;
 
 export const InfoColumn = styled.div`
-margin-bottom: 15px;
+margin-bottom: -250px;
 padding-right: 15px;
 padding-left: 15px;
 flex: 1;

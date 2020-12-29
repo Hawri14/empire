@@ -4,20 +4,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100%;
+    padding-bottom: 50%;
     padding-top: 0%;
+    padding-left: 110%;
   }
   
   .image {
     width: 1000px;
     height: 600px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   
   .right-arrow {
     position: absolute;
-    top: 50%;
-    right: 32px;
+    top: 39%;
+    left: 1220px;
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -27,8 +28,8 @@
   
   .left-arrow {
     position: absolute;
-    top: 50%;
-    left: 32px;
+    top: 40%;
+    left: -90px;
     font-size: 3rem;
     color: #000;
     z-index: 10;
