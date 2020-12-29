@@ -93,5 +93,6 @@ export const homeObjTwo = {
     img: require('../../images/svg1.svg').default, 
     alt: 'Image',
     start: 'true',
-};
 
+
+};

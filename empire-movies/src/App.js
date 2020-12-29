@@ -7,15 +7,13 @@ import Movies from './pages/Movies/Movies';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import { Navbar, Footer } from './components';
-import ImageSilder from './components/ImageSilder';
-import { SilderData } from './components/SliderData';
+
 
 function App() {
   return (              //here we just give a link to the file so the code knows where to get the information from
     <Router>
       <GlobalStyle />
       <Navbar />
-      <ImageSilder slides={SilderData}/> 
       <Switch>
         <Route path="/" exact component={Home} /> 
         <Route path="/aboutus" exact component={Aboutus} />
