@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-
 import Search from '../Movies/MovieSearch'
 import Results from '../Movies/MovieResults'
 import Popup from '../Movies/MoviePop'
 import Result from '../Movies/MovieResult'
+import '../Movies/MoviePage.css'
 
 function App() {
   const [state, setState] = useState({
@@ -12,7 +12,7 @@ function App() {
     results: [],
     selected: {}
   });
-  const apiurl = "http://www.omdbapi.com/?apikey=dfe6d885";
+  const apiurl = "http://www.omdbapi.com/?apikey=bfa7062e";
 
   const search = (e) => {
     if (e.key === "Enter") {
