@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+
+  
+  .close-btn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #fff;
+  }
+  
+  .form-content-right {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  }
+  
+  .form h1 {
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .form-inputs {
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  .form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  .form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 200px;
+    height: 40px;
+    width: 25%;
+    border: none;
+  }
+  
+  .form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+  .form-input-btn {
+    width: 10%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 200px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(0, 68, 255) 0%,
+      rgb(0, 94, 255) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+  .form-input-login {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .form-input-login a {
+    text-decoration: none;
+    color: #27cdff;
+    font-weight: 600;
+  }
