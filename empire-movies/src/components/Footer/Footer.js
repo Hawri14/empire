@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaMagento } from 'react-icons/fa';
 import { Button } from '../../globalStyle';
-import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, Form, FormInput, FooterLinksContainer, FooterLinksWrapper, FooterLinksItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap,SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, SocialIcon} from './Footer.elements'; // here we just import these things from footer.elements
+import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, Form, FormInput, FooterLinksContainer,
+     FooterLinksWrapper, FooterLinksItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap,SocialLogo, WebsiteRights, SocialIcons,
+      SocialIconLink, SocialIcon} from './Footer.elements'; // here we just import these things from footer.elements
 
 const Footer = () => {
     return (

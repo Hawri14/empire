@@ -7,9 +7,9 @@ import Result from '../Movies/MovieResult'
 import '../Movies/MoviePage.css'
 
 function App() {
-  const [state, setState] = useState({
-    s: "",
-    results: [],
+  const [state, setState] = useState({ //create our states and give it a value
+    s: "", //search query
+    results: [], //empty array
     selected: {}
   });
   const apiurl = "http://www.omdbapi.com/?apikey=bfa7062e";
@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Movie Database</h1>
+        <h1>Empire Movies Selection</h1>
       </header>
       <main>
         <Search handleInput={handleInput} search={search} />
