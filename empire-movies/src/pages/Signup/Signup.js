@@ -1,14 +1,26 @@
-import React from 'react';
-import { homeObjOne, homeObjTwo } from './Data';
-import { MoreInfo } from '../../components';
+import React, { useState } from 'react';
+import './Signup.css';
+import FormSignup from './FormSignup2';
+import FormSuccess from './FormSuccess2';
 
-const Signup = () => {
-    return (
-        <>  
-        <MoreInfo {...homeObjOne} />  
-        <MoreInfo {...homeObjTwo} />   
-        </>
-    );    //above we just create the page sections that we have in our Data.js file so it shows on the page
+const Form = () => {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  function submitForm() {
+    setIsSubmitted(true);
+  }
+  return (
+    <>
+      <div className='form-container'>
+        <span className='close-btn'>×</span>
+        {!isSubmitted ? (
+          <FormSignup submitForm={submitForm} />
+        ) : (
+          <FormSuccess />
+        )}
+      </div>
+    </>
+  );
 };
 
-export default Signup;
+export default Form;
